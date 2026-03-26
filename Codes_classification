@@ -13,7 +13,7 @@ iom_raw <- read_excel("IOM 2009 values per week.xlsx")
 iom <- iom_raw %>%
 rename(
 bmi = BMI,
-ga = `GA (wks)`,
+ga = `GA(wks)`,
 liminf = ` Lower limit`,
 limsup = `Upper limit`
 ) %>%
